@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: runner.Runner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 7.332 s <<< FAILURE! - in runner.Runner
+Employee login.Login as an Employee  Time elapsed: 0.002 s  <<< ERROR!
+io.cucumber.java.InvalidMethodException: You're not allowed to extend classes that define Step Definitions or hooks. class stepDefinitions.Employee_login_functionalities extends class base.Hooks
+
+runner.Runner  Time elapsed: 0.006 s  <<< ERROR!
+org.junit.runner.notification.StoppedByUserException
+
